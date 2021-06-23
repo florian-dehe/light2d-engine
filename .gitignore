@@ -1,0 +1,7 @@
+# Build folder
+build/
+build-mingw64/
+build-win/
+
+#Netbeans folder
+nbproject/
