@@ -5,6 +5,7 @@
 #include "core/Logger.h"
 #include "core/Window.h"
 #include "core/Application.h"
+#include "core/SimpleApplication.h"
 
 /* Input */
 #include "input/Key.h"

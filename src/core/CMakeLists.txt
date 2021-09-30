@@ -1,8 +1,8 @@
 cmake_minimum_required(VERSION 3.10)
 
-set(SRCS Application.cpp Window.cpp Logger.cpp)
+set(SRCS Application.cpp Window.cpp Logger.cpp SimpleApplication.cpp)
 
-set(HDRS Application.h Window.h Logger.h)
+set(HDRS Application.h Window.h Logger.h SimpleApplication.h)
 
 add_library(core OBJECT ${SRCS})
 
