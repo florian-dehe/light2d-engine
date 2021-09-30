@@ -5,7 +5,7 @@
 
 namespace light2d {
     /**
-     * @brief Contains all the template game objects.
+     * @brief Contains all the template game gameObjects.
      */
     namespace objects {
         /**
@@ -26,6 +26,16 @@ namespace light2d {
              * @brief Init method.
              */
             virtual void init() = 0;
+
+            /**
+             * @brief Update method.
+             */
+            virtual void update() = 0;
+
+            /**
+             * @brief Render method.
+             */
+            virtual void render() = 0;
             
             /**
              * @brief Destroy method.

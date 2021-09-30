@@ -40,7 +40,7 @@ set(LIBS_MODULES    $<TARGET_OBJECTS:core>
                     $<TARGET_OBJECTS:ui>
                     $<TARGET_OBJECTS:audio>)
 
-#### Target
+### Target
 add_library(light2d ${LIBS_MODULES})
 target_link_libraries(light2d PUBLIC ${LIBS})
 if(WIN32)

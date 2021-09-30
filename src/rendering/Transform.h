@@ -6,7 +6,7 @@
 namespace light2d {
     namespace rendering {
         /**
-         * @brief Represents an object transform. Used to move, rotate or scale objects.
+         * @brief Represents an object transform. Used to move, rotate or scale gameObjects.
          * @details Manipulates an OpenGL model matrix.
          */
         class Transform {

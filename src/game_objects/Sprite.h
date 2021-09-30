@@ -37,8 +37,8 @@ namespace light2d {
              * @details Loads a template material.
              */
             void init() override;
-            
-            /**
+
+            virtual /**
              * @brief Inits the sprite with the given material.
              * @param material The material to apply derived from SpriteMaterial.
              */
@@ -54,7 +54,12 @@ namespace light2d {
             /**
              * @brief Renders the sprite.
              */
-            void render();
+            void render() override;
+
+            /**
+             * @brief Updates the sprite. Not needed in this class.
+             */
+            void update() override { };
             
             /**
              * @brief Destroys the sprite.

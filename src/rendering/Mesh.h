@@ -6,7 +6,7 @@
 namespace light2d {
     namespace rendering {
         /**
-         * @brief Represents a set of vertices and indices managed by OpenGL objects.
+         * @brief Represents a set of vertices and indices managed by OpenGL gameObjects.
          */
         class Mesh {
         public:
@@ -21,7 +21,7 @@ namespace light2d {
             
             /**
              * @brief Sets the data to the mesh. "Creates" the mesh.
-             * @details Creates all the necessary objects to manage the verties and the indices.
+             * @details Creates all the necessary gameObjects to manage the verties and the indices.
              * @param vertices The vertices to load.
              * @param indexed Is the data indexed. If yes, uses the indices vector given.
              * @param indices The indices to load.
@@ -50,7 +50,7 @@ namespace light2d {
             uint32_t getVertexCount();
             
             /**
-             * @brief Destroys the mesh and all the objects created.
+             * @brief Destroys the mesh and all the gameObjects created.
              */
             void destroy();
             

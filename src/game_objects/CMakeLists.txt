@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.10)
 
-set(SRCS Sprite.cpp AnimatedSprite.cpp)
+set(SRCS Sprite.cpp AnimatedSprite.cpp GameObjectGroup.cpp GameObjectGroup.h)
 
 set(HDRS GameObject.h Sprite.h Scene.h AnimatedSprite.h)
 

@@ -30,7 +30,7 @@ namespace light2d {
              * @brief Inits the animated sprite with the given material.
              * @param material The material to apply derived from SpriteMaterial.
              */
-            void init(materials::SpriteMaterial* material);
+            void init(materials::SpriteMaterial* material) override;
             
             /**
              * @brief Updates the animated sprite.
